@@ -14,7 +14,7 @@ To pipe your code to gist with your existing BPython REPL, use togist.py (accept
 
 ## License: The MIT License Copyright (c)
 
-Copyright (c) 2008 Bob Farrell
+Copyright (c) 2008 Jane Wang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
