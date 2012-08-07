@@ -1,0 +1,403 @@
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: arial;
+    background-color: #4d7cb5;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.body {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+header {
+    height: 102px;
+    overflow: hidden;
+}
+
+header a {
+    display: block;
+    float: left;
+}
+
+header a h1 {
+    background: url(../img/logo.png) no-repeat;
+    width: 162px;
+    height: 62px;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-indent: -999999px;
+}
+
+header .menu {
+    float: right;
+    margin-top: 26px;
+}
+
+header nav {
+    overflow: hidden;
+    height: 18px;
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav li {
+    padding: 0 8px;
+    border-right: solid 1px #8a9db5;
+    float: left;
+}
+
+header nav li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+header nav li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+header aside {
+    text-align: right;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #c6cfd9;
+}
+
+header aside .running,
+header aside .active-workers,
+header aside .active-job-types,
+header aside .redis-url {
+    font-weight: bold;
+    color: #fff;
+}
+
+header aside p:first-child {
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.main .section {
+    padding-top: 34px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.main .section h1 {
+    padding-bottom: 4px;
+    /*margin-bottom: 20px;*/
+    border-bottom: solid 1px #d5d5d5;
+}
+
+.main .section .explain {
+    position: absolute;
+    right: 0;
+    top: 34px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #999;
+}
+
+.main .current-jobs table {
+    margin-left: 10px;
+    width: 600px !important;
+}
+
+.main .current-jobs table .job-id-col {
+    width: 250px;
+}
+
+.main .failed-jobs .filters {
+    margin-top: 30px;
+}
+
+.main .mappers .filters {
+    margin-top: 30px;
+}
+
+.main .failed-jobs table .job-id-col {
+    width: 250px;
+    text-align: center;
+}
+
+.main .failed-jobs table .job-date-col {
+    width: 150px;
+    text-align: center;
+}
+
+.main .failed-jobs table .job-type-col {
+    width: 100px;
+    text-align: center;
+}
+
+.main .failed-jobs table .job-actions-col {
+    width: 80px;
+    text-align: center;
+}
+
+.main .failed-jobs .actions {
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.main .stats .actions {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.main .stats .delete {
+    width: 70px;
+    text-align: center;
+}
+
+.main .stats .delete a {
+    color: #fff;
+    font-size: 11px;
+    width: auto;
+}
+
+.main .stats .delete a:hover {
+    text-decoration: none;
+}
+
+.main .job pre {
+    margin-top: 15px;
+}
+
+.main .section table a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #4d7cb5;
+}
+
+.main .section table a:hover {
+    text-decoration: underline;
+}
+
+.main .section h2  {
+    margin-top: 15px;
+}
+
+.main .section h2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main .stats h2  {
+    margin-bottom: 10px;
+}
+
+.main .section h3  {
+    font-size: 11px;
+    color: #999;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.main .filters {
+    float: right;
+    margin-bottom: 4px;
+}
+
+.main .filters li {
+    float: left;
+    margin-right: 6px;
+}
+
+.main .filters li a {
+    font-size: 11px;
+    font-weight: bold;
+    color: #4d7cb5;
+    text-decoration: none;
+    display: block;
+}
+
+.main .filters li a:hover {
+    text-decoration: underline;
+}
+
+table tr th {
+    font-size: 11px;
+    background-color: #4d7cb5;
+    color: white;
+}
+
+table tbody tr td {
+    font-size: 13px;
+    vertical-align: middle !important;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #4d7cb5;
+    text-align: center;
+    overflow: hidden;
+    display: table;
+}
+
+footer .cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11px;
+    display: block;
+    margin: 20px 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    margin-bottom: 0 !important;
+}
+
+.notice {
+    padding-top: 15px;
+}
+
+.notice .alert {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.notice .alert .close {
+    text-decoration: none;
+}
+
+.stats .redis {
+    width: auto;
+}
+
+.stats .redis .key {
+    width: 190px;
+}
+
+.stats .redis .value {
+    min-width: 300px;
+}
+
+.stats .keys .no-keys {
+    height: 90px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.stats .nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.stats .nav a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #4d7cb5;
+}
+
+.stats .nav a:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.alert .failed {
+    text-decoration: none;
+    color: #4d7cb5;
+}
+
+.alert .failed:hover {
+    text-decoration: underline;
+}
+
+.alert .close {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    color: #333;
+}
+
+.alert .close:hover {
+    color: #999;
+}
+
+table.no-jobs {
+    margin-top: 20px;
+}
+
+.no-jobs,
+.no-fails,
+.no-mappers {
+    height: 90px;
+    vertical-align: middle !important;
+    text-align: center !important;
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.mappers-table .mapper-name {
+    width: 200px;
+}
+
+.main .failed-jobs table a {
+    color: #fff;
+}
+
+.main .failed-jobs .actions a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main .show-key a {
+    text-decoration: none;
+    color: #4d7cb5;
+    font-weight: bold;
+}
+
+.main .show-key a:hover {
+    text-decoration: underline;
+}
+
+.main .show-key h1 {
+    margin-bottom: 15px;
+}

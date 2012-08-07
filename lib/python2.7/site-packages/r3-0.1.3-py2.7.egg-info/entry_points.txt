@@ -1,0 +1,5 @@
+[console_scripts]
+r3-app = r3.app.server:main
+r3-map = r3.worker.mapper:main
+r3-web = r3.web.server:main
+

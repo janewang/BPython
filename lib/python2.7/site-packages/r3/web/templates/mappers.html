@@ -1,0 +1,47 @@
+{% extends "master.html" %}
+
+{% block title %} - Mappers{% endblock %}
+
+{% block body %}
+<div class="container main">
+    <div class="mappers section">
+        <h1>Mappers</h1>
+
+        <div class="filters">
+            <ul>
+                <li><a href="#" data-filter="all">all</a></li>
+                {% for job_type in g.job_types %}
+                <li><a href="#" data-filter="{{ job_type }}">{{ job_type }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <table class="mappers-table table table-striped table-bordered table-condensed">
+            <thead>
+                <tr>
+                    <th class="mapper-name">Name</th>
+                    <th class="working">Working on</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for mapper, status in g.mappers.iteritems() %}
+                <tr>
+                    <td>{{ mapper }}</td>
+                    {% if status %}
+                    <td>Processing job {{ status }}</td>
+                    {% else %}
+                    <td>Waiting for a new job...</td>
+                    {% endif %}
+                </tr>
+                {% else %}
+                <tr>
+                    <td class="no-mappers" colspan="2">No mappers registered so far...</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <span class="explain">click a mapper to view its activity</span>
+    </div>
+</div>
+{% endblock %}
