@@ -3,17 +3,16 @@ BPython (Push To Gist)
 
 By Jane Wang [@janeylwang](https://twitter.com/JaneyLWang)
 
-Being a fan of Github, what is a REPL without some fast push action to gists on Github?
-
-Quick Key F10 to push your code to a public gist on Github with this updated BPython. More souped up functionalities to come. 
+Being a fan of Github, what is an awesome REPL without some easy way to push gists on Github? Quick Key F10 to push your code to a public gist on Github with this updated BPython. More souped up functionalities to come. 
 
 To pipe your code to gist with your existing BPython REPL, use togist.py (accepted change).
 
-Closed Issue: https://bitbucket.org/bobf/bpython/issue/219/make-pastebin-service-configurable-to-use
+#### Closed Issue: https://bitbucket.org/bobf/bpython/issue/219/make-pastebin-service-configurable-to-use
 
 
 
-License: The MIT License Copyright (c)
+
+## License: The MIT License Copyright (c)
 
 Copyright (c) 2008 Bob Farrell
 
